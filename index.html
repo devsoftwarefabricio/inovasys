@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema para Varejo - Potencialize seu Negócio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="audioNotice" class="audio-notice">
+        🔊 Clique aqui para ativar o áudio do vídeo
+    </div>
+
+    <header class="header">
+        <div class="logo-container">
+            <!-- Espaço para o logotipo -->
+            <img src="img/logo.png" alt="Logo Sistema Varejo" class="logo" />
+        </div>
+       
+        <div class="video-container">
+            <button id="audioBtn" class="audio-btn">🔊 Ativar Som</button>
+            <!-- Vídeo institucional - Inicia mutado e será desmutado via JavaScript -->
+            <iframe id="videoFrame" src="https://www.youtube.com/embed/aW9M00diHxA?autoplay=1&mute=1&modestbranding=1&rel=0&showinfo=0&controls=1&iv_load_policy=3&cc_load_policy=0&fs=1&autohide=1&enablejsapi=1" title="Vídeo Sistema Varejo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a href="https://wa.link/d0o226" class="cta-btn" target="_blank">Quero uma demonstração!</a>
+    </header>
+
+    <main>
+        <section class="aida attention">
+            <h2>Você ainda perde tempo com anotações manuais ou planilhas confusas?
+Pior: seu sistema atual trava, dá erro no cupom fiscal ou te deixa no escuro na hora de fechar o caixa?</h2>
+            
+            <div class="img-row">
+                <img src="img/menu.jpeg" alt="Equipe Atendendo" />
+                           </div>
+        </section>
+        <section class="aida interest">
+            <h2>Com o sistema InovaSys, você tem uma solução feita sob medida para o varejo.
+            Emissão rápida e segura de cupom fiscal, Controle financeiro completo: entradas, saídas, fluxo de caixa e contas a pagar ,Relatórios de vendas claros e objetivos.</h2>
+            <div class="img-row">
+                <img src="img/img1.jpeg" alt="Gestão de Estoque" />
+                <img src="img/img2.jpeg" alt="Relatórios Inteligentes" />
+              <br>
+              <br>
+            </div>
+        </section>
+       <!-- <section class="aida desire">
+            <h2>Imagine sua loja funcionando de forma fluida,Vendas rápidas no caixa, Estoque atualizado automaticamente
+            Relatórios gerados com um clique e você com total controle do seu dinheiro , sem surpresas no fim do mês,
+            e conte com suporte especializado sempre que precisar.</h2>
+            <div class="img-row">
+                <img src="img/img6.jpeg" alt="Equipe Unida" />
+            </div>
+        </section>  -->
+        <section class="aida action">
+            <h2>Chegou a hora de profissionalizar sua gestão e vender com mais segurança. Clique agora no botão do WhatsApp e agende sua demonstração gratuita.
+            Descubra por que a InovaSys é o sistema que o varejista confia.</h2>
+            <div class="img-row">
+                <img src="img/imga.jpg" alt="Demonstração" />
+                <img src="img/imgb.jpg" alt="Atendimento" />
+                <img src="img/imgc.jpg" alt="Suporte" />
+            </div>
+            <a href="https://wa.link/d0o226" class="cta-btn" target="_blank">Quero uma demonstração!</a>
+        </section> -->
+    </main>
+    <a href="https://wa.link/d0o226" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+    <footer>
+        <p>&copy; 2025 Sistema para Varejo. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal para zoom das imagens -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Imagem ampliada">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
